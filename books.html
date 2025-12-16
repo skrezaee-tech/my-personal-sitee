@@ -4,10 +4,54 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>کتاب‌ها</title>
-  <style>
-    body { font-family: sans-serif; background: #f2f2f2; margin: 0; }
+ 
+
+ <style>
+  
+
+.item {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.cover {
+  width: 160px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.desc {
+  color: #555;
+  font-size: 14px;
+  margin: 10px 0 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  background: #1f2937;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn.secondary {
+  background: #6b7280;
+}
+
+
+  body { font-family: sans-serif; background: #f2f2f2; margin: 0; }
     header { background: #1f2937; color: #fff; text-align: center; padding: 25px; }
-    .container { max-width: 800px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    .container { max-width: 1000px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
     .book-item { padding: 15px; border-bottom: 1px solid #ddd; }
     h2 { margin-top: 0; }
     .back { text-align:center; margin-top:20px; }
@@ -28,16 +72,61 @@
     </nav>
 
  <h1>کتاب‌ها</h1>
+
 </header>
 
+
 <div class="container">
-  <h2>فهرست کتاب‌ها</h2>
+  
+<h2>فهرست کتاب‌ها</h2>
 
-  <div class="book-item">کتاب ? – لينک دانلود/خريد</div>
-  <div class="book-item">کتاب ? – لينک دانلود/خريد</div>
-  <div class="book-item">کتاب ? – لينک دانلود/خريد</div>
+ 
 
-  <div class="back"><a href="index.html">بازگشت به صفحه اصلي</a></div>
+<div class="item">
+  <img src="images/book1.jpg" alt="کتاب 1" class="cover">
+
+  <h3> سیب هایی که کال بودند </h3>
+
+  <p class="desc">
+  این کتاب در سال 1392 به چاپ رسیده است.
+ موضوع کتاب درباره داستان های کوتاه فارسی است و   </p>
+
+  <div class="buttons">
+    <a href="files/book1.pdf" target="_blank" class="btn">دانلود کتاب</a>
+    <a href="https://google.com/buy-book" target="_blank" class="btn secondary">لینک خرید</a>
+  </div>
+</div>
+
+<div class="item">
+  <img src="images/book1.jpg" alt="کتاب 2" class="cover">
+
+  <h3> بادام های تلخ </h3>
+
+  <p class="desc">
+ این کتاب در رابطه با داستان های اخلاقی و کوتاه فارسی است و در سال 1390 به چاپ رسیده است
+  </p>
+
+  <div class="buttons">
+    <a href="files/book1.pdf" target="_blank" class="btn">دانلود کتاب</a>
+    <a href="https://google.com/buy-book" target="_blank" class="btn secondary">لینک خرید</a>
+  </div>
+</div>
+
+<div class="item">
+  <img src="images/book1.jpg" alt="کتاب 3" class="cover">
+
+  <h3> مقدمه ای بر آسیب شناسی اجتماعی </h3>
+
+  <p class="desc">
+  این کتاب در رابطه با انحرافات اجتماعی نوشته شده است و در سال 1392 به چاپ رسیده است </p>
+
+  <div class="buttons">
+    <a href="files/book1.pdf" target="_blank" class="btn">دانلود کتاب</a>
+    <a href="https://google.com/buy-book" target="_blank" class="btn secondary">لینک خرید</a>
+  </div>
+</div>
+
+<div class="back"><a href="index.html">بازگشت به صفحه اصلي</a></div>
 </div>
 
 </body>
